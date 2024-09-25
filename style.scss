@@ -1,0 +1,38 @@
+
+h1{
+    color: red;
+}
+
+// class --> apelido da tag
+// id  --> apelido da tag
+// tag -> chamando a propia tag
+
+
+.caixa1{
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+    padding-left: 50px;
+}
+
+#titulo{
+    color: aqua;
+}
+
+section{
+    border: solid 2px;
+
+    .caixa2{
+        background-color: blue;
+
+        p{
+           color: red;
+        }
+    }
+
+}
+
+
+*{
+   background-color: burlywood; 
+}
